@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    height: 1000px;
+    opacity: .5;
+}
+.menu-bar{
+    background:rgb(255, 255, 255);
+    text-align: center;
+ 
+}
+
+.menu-bar ul {
+    list-style: ;
+    padding:10px;
+    display:inline-flex;
+    
+    
+}
+.menu-bar ul li a 
+{
+    list-style: none;
+   
+}
+.menu-bar ul li a{
+    list-style:none;
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color:red
+    text-decoration:none;
+}
